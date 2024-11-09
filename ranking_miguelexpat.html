@@ -1,0 +1,1034 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ranking de Views</title>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <style>
+            body { 
+                font-family: 'Inter', sans-serif;
+                margin: 0;
+                padding: 20px;
+                background: #f5f7fa;
+                color: #2d3748;
+                min-height: 100vh;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background: transparent;
+            }
+            header {
+                background: #fff;
+                padding: 30px;
+                border-radius: 12px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+                margin-bottom: 30px;
+                text-align: center;
+            }
+            header h1 {
+                margin: 0;
+                font-size: 28px;
+                font-weight: 600;
+                color: #1a202c;
+            }
+            .ranking {
+                background: #fff;
+                border-radius: 12px;
+                padding: 25px;
+                margin-bottom: 30px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+            }
+            .ranking h2 {
+                color: #2d3748;
+                font-size: 24px;
+                margin-bottom: 20px;
+                padding-bottom: 15px;
+                border-bottom: 2px solid #edf2f7;
+            }
+            .ranking ul {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            .ranking li {
+                padding: 16px 24px;
+                margin-bottom: 12px;
+                background: #f8fafc;
+                border-radius: 8px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr; /* Distribuição igual das colunas */
+                align-items: center;
+                gap: 20px;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+            }
+            .ranking li:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            }
+            .ranking li .user {
+                flex: 2;
+                font-weight: 500;
+                color: #2d3748;
+            }
+            .ranking li .views {
+                flex: 1;
+                text-align: center;
+                color: #4a5568;
+                justify-self: center;
+            }
+            .ranking li .premiacao {
+                flex: 1;
+                text-align: right;
+                color: #38a169;
+                font-weight: 600;
+                justify-self: end;
+            }
+            .toggle-button {
+                background: #3182ce;
+                color: #fff;
+                border: none;
+                padding: 12px 24px;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 15px;
+                font-weight: 500;
+                transition: background 0.2s ease;
+                display: block;
+                margin: 20px auto;
+            }
+            .toggle-button:hover {
+                background: #2c5282;
+            }
+            @media (max-width: 768px) {
+                body {
+                    padding: 10px;
+                }
+                .container {
+                    padding: 0;
+                }
+                .ranking {
+                    padding: 15px;
+                }
+                .ranking li {
+                    grid-template-columns: 1fr;
+                    padding: 16px;
+                    gap: 8px;
+                }
+                .user-info {
+                    justify-content: center;
+                    margin-bottom: 8px;
+                }
+                .position {
+                    margin-right: 10px;
+                }
+                .user {
+                    font-size: 16px;
+                }
+                .views {
+                    grid-column: 1;
+                    font-size: 15px;
+                    margin: 4px 0;
+                }
+                .premiacao {
+                    grid-column: 1;
+                    text-align: center;
+                    justify-self: center;
+                    font-size: 15px;
+                }
+                header {
+                    padding: 20px;
+                    margin-bottom: 15px;
+                }
+                header h1 {
+                    font-size: 20px;
+                }
+                .ranking h2 {
+                    font-size: 18px;
+                    margin-bottom: 15px;
+                }
+                .toggle-button {
+                    width: 100%;
+                    max-width: 280px;
+                    margin: 15px auto;
+                    font-size: 14px;
+                    padding: 10px;
+                }
+            }
+            .position {
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background: #edf2f7;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+                font-weight: 600;
+                color: #4a5568;
+            }
+            .top-3 {
+                background: linear-gradient(45deg, #4299e1, #3182ce);
+                color: white;
+            }
+            .user-info {
+                grid-column: 1;
+                display: flex;
+                align-items: center;
+            }
+            .stats {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                align-items: center;
+                gap: 20px;
+                grid-column: 2 / span 2;
+            }
+            .views {
+                grid-column: 2;
+                text-align: center;
+                color: #4a5568;
+                justify-self: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .premiacao {
+                grid-column: 3;
+                text-align: right;
+                color: #38a169;
+                font-weight: 600;
+                justify-self: end;
+            }
+            @media (max-width: 768px) {
+                .ranking li {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding: 16px;
+                    gap: 8px;
+                }
+                .user-info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                }
+                .stats {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+                    gap: 8px;
+                }
+                .views, 
+                .premiacao {
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        </style>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const button = document.getElementById('toggleButton');
+                const top10 = document.getElementById('top10');
+                const fullRanking = document.getElementById('fullRanking');
+                
+                button.addEventListener('click', function() {
+                    const isTop10Visible = top10.style.display !== 'none';
+                    
+                    requestAnimationFrame(() => {
+                        top10.style.display = isTop10Visible ? 'none' : 'block';
+                        fullRanking.style.display = isTop10Visible ? 'block' : 'none';
+                        button.textContent = isTop10Visible ? 'Ver Top 10' : 'Ver Todos os Competidores';
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                    });
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Ranking de Visualizações</h1>
+            </header>
+            <div id="top10" class="ranking">
+                <h2>Top 10 Competidores</h2>
+                <ul>
+    
+            <li>
+                <div class="user-info">
+                    <div class="position top-3">1</div>
+                    <span class="user">tododiacortesz</span>
+                </div>
+                <span class="views">4.875.422 views</span>
+                <span class="premiacao">R$ 1500,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position top-3">2</div>
+                    <span class="user">00_sabio</span>
+                </div>
+                <span class="views">1.627.319 views</span>
+                <span class="premiacao">R$ 1000,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position top-3">3</div>
+                    <span class="user">vivaooextraordinarioo</span>
+                </div>
+                <span class="views">1.254.660 views</span>
+                <span class="premiacao">R$ 600,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">4</div>
+                    <span class="user">theexpatmiguel</span>
+                </div>
+                <span class="views">925.261 views</span>
+                <span class="premiacao">R$ 300,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">5</div>
+                    <span class="user">cortesblitz</span>
+                </div>
+                <span class="views">631.156 views</span>
+                <span class="premiacao">R$ 300,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">6</div>
+                    <span class="user">miguelex_cortes</span>
+                </div>
+                <span class="views">525.483 views</span>
+                <span class="premiacao">R$ 200,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">7</div>
+                    <span class="user">viajantemotivacional</span>
+                </div>
+                <span class="views">450.223 views</span>
+                <span class="premiacao">R$ 200,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">8</div>
+                    <span class="user">miguelexpatworld</span>
+                </div>
+                <span class="views">295.155 views</span>
+                <span class="premiacao">R$ 200,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">9</div>
+                    <span class="user">miguelitoexpat</span>
+                </div>
+                <span class="views">256.568 views</span>
+                <span class="premiacao">R$ 100,00</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position ">10</div>
+                    <span class="user">motivabrae</span>
+                </div>
+                <span class="views">141.910 views</span>
+                <span class="premiacao">R$ 100,00</span>
+            </li>
+        
+                </ul>
+            </div>
+            <div id="fullRanking" class="ranking" style="display: none;">
+                <h2>Todos os Competidores</h2>
+                <ul>
+    
+            <li>
+                <div class="user-info">
+                    <div class="position">1</div>
+                    <span class="user">tododiacortesz</span>
+                </div>
+                <span class="views">4.875.422 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">2</div>
+                    <span class="user">00_sabio</span>
+                </div>
+                <span class="views">1.627.319 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">3</div>
+                    <span class="user">vivaooextraordinarioo</span>
+                </div>
+                <span class="views">1.254.660 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">4</div>
+                    <span class="user">theexpatmiguel</span>
+                </div>
+                <span class="views">925.261 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">5</div>
+                    <span class="user">cortesblitz</span>
+                </div>
+                <span class="views">631.156 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">6</div>
+                    <span class="user">miguelex_cortes</span>
+                </div>
+                <span class="views">525.483 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">7</div>
+                    <span class="user">viajantemotivacional</span>
+                </div>
+                <span class="views">450.223 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">8</div>
+                    <span class="user">miguelexpatworld</span>
+                </div>
+                <span class="views">295.155 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">9</div>
+                    <span class="user">miguelitoexpat</span>
+                </div>
+                <span class="views">256.568 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">10</div>
+                    <span class="user">motivabrae</span>
+                </div>
+                <span class="views">141.910 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">11</div>
+                    <span class="user">_rick_boy_</span>
+                </div>
+                <span class="views">108.513 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">12</div>
+                    <span class="user">umavezmiguel</span>
+                </div>
+                <span class="views">103.471 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">13</div>
+                    <span class="user">visaoexpat</span>
+                </div>
+                <span class="views">101.777 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">14</div>
+                    <span class="user">excortes1</span>
+                </div>
+                <span class="views">97.239 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">15</div>
+                    <span class="user">vibesnomade</span>
+                </div>
+                <span class="views">92.983 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">16</div>
+                    <span class="user">teoriaamarga</span>
+                </div>
+                <span class="views">90.590 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">17</div>
+                    <span class="user">miguel.expat.corts</span>
+                </div>
+                <span class="views">90.279 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">18</div>
+                    <span class="user">vc_contra_ti</span>
+                </div>
+                <span class="views">88.215 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">19</div>
+                    <span class="user">samus.prosperus</span>
+                </div>
+                <span class="views">84.945 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">20</div>
+                    <span class="user">novaesedit</span>
+                </div>
+                <span class="views">79.111 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">21</div>
+                    <span class="user">omundonomadeofc</span>
+                </div>
+                <span class="views">59.996 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">22</div>
+                    <span class="user">miguel_mente</span>
+                </div>
+                <span class="views">59.700 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">23</div>
+                    <span class="user">maktub_mindset</span>
+                </div>
+                <span class="views">54.661 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">24</div>
+                    <span class="user">expatfocus_</span>
+                </div>
+                <span class="views">53.393 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">25</div>
+                    <span class="user">expatinteligente</span>
+                </div>
+                <span class="views">52.856 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">26</div>
+                    <span class="user">TheExpatMiguel</span>
+                </div>
+                <span class="views">51.393 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">27</div>
+                    <span class="user">miguel01ex</span>
+                </div>
+                <span class="views">48.649 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">28</div>
+                    <span class="user">expatcortes111</span>
+                </div>
+                <span class="views">42.073 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">29</div>
+                    <span class="user">crescimentomindset</span>
+                </div>
+                <span class="views">38.249 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">30</div>
+                    <span class="user">faladomiguel</span>
+                </div>
+                <span class="views">36.170 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">31</div>
+                    <span class="user">sejaumexpat</span>
+                </div>
+                <span class="views">24.007 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">32</div>
+                    <span class="user">clip_expat</span>
+                </div>
+                <span class="views">23.703 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">33</div>
+                    <span class="user">soul.llivre</span>
+                </div>
+                <span class="views">22.409 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">34</div>
+                    <span class="user">lifeexpat</span>
+                </div>
+                <span class="views">20.635 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">35</div>
+                    <span class="user">papo.de.bilionario</span>
+                </div>
+                <span class="views">15.071 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">36</div>
+                    <span class="user">https://www.facebook.com/profile.php?id=61552806811613&sk=reels_tab</span>
+                </div>
+                <span class="views">15.001 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">37</div>
+                    <span class="user">expatgoat</span>
+                </div>
+                <span class="views">12.935 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">38</div>
+                    <span class="user">ourolifestyle</span>
+                </div>
+                <span class="views">12.531 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">39</div>
+                    <span class="user">sourcee_motivation</span>
+                </div>
+                <span class="views">12.458 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">40</div>
+                    <span class="user">ambitiousclub.tv</span>
+                </div>
+                <span class="views">12.110 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">41</div>
+                    <span class="user">vidadeexpet</span>
+                </div>
+                <span class="views">10.835 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">42</div>
+                    <span class="user">ownsucess</span>
+                </div>
+                <span class="views">10.254 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">43</div>
+                    <span class="user">gatoliminal</span>
+                </div>
+                <span class="views">10.193 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">44</div>
+                    <span class="user">Expat111</span>
+                </div>
+                <span class="views">8.516 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">45</div>
+                    <span class="user">ClipExpat</span>
+                </div>
+                <span class="views">8.431 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">46</div>
+                    <span class="user">miguelcortes1926</span>
+                </div>
+                <span class="views">7.568 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">47</div>
+                    <span class="user">freequenciavencedora</span>
+                </div>
+                <span class="views">6.602 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">48</div>
+                    <span class="user">achadossp2024</span>
+                </div>
+                <span class="views">6.043 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">49</div>
+                    <span class="user">expat.mentality</span>
+                </div>
+                <span class="views">4.752 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">50</div>
+                    <span class="user">Miguelsinceroexpa</span>
+                </div>
+                <span class="views">4.454 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">51</div>
+                    <span class="user">aartedeserlivre</span>
+                </div>
+                <span class="views">4.174 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">52</div>
+                    <span class="user">expatvision</span>
+                </div>
+                <span class="views">4.006 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">53</div>
+                    <span class="user">0_sabio777</span>
+                </div>
+                <span class="views">3.970 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">54</div>
+                    <span class="user">motivaaimiguel</span>
+                </div>
+                <span class="views">3.751 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">55</div>
+                    <span class="user">Sociedadeexpat</span>
+                </div>
+                <span class="views">3.136 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">56</div>
+                    <span class="user">expatclip</span>
+                </div>
+                <span class="views">2.339 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">57</div>
+                    <span class="user">expatfrases</span>
+                </div>
+                <span class="views">2.290 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">58</div>
+                    <span class="user">foconaev0lucao</span>
+                </div>
+                <span class="views">2.241 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">59</div>
+                    <span class="user">ExpatClip</span>
+                </div>
+                <span class="views">2.210 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">60</div>
+                    <span class="user">falaexpat</span>
+                </div>
+                <span class="views">2.164 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">61</div>
+                    <span class="user">SejaExpat</span>
+                </div>
+                <span class="views">2.078 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">62</div>
+                    <span class="user">1.vdeo.1.neuronio</span>
+                </div>
+                <span class="views">1.609 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">63</div>
+                    <span class="user">c0rtesexpat1</span>
+                </div>
+                <span class="views">1.326 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">64</div>
+                    <span class="user">iblame.expatt</span>
+                </div>
+                <span class="views">1.322 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">65</div>
+                    <span class="user">Persistência_Inabalável</span>
+                </div>
+                <span class="views">1.175 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">66</div>
+                    <span class="user">mindset.motivationbr</span>
+                </div>
+                <span class="views">1.055 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">67</div>
+                    <span class="user">smkcortesss</span>
+                </div>
+                <span class="views">738 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">68</div>
+                    <span class="user">Mimiexpatcortes</span>
+                </div>
+                <span class="views">708 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">69</div>
+                    <span class="user">cortestheex</span>
+                </div>
+                <span class="views">621 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">70</div>
+                    <span class="user">https://www.facebook.com/cortesblitz/reels/</span>
+                </div>
+                <span class="views">420 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">71</div>
+                    <span class="user">ddcortes_</span>
+                </div>
+                <span class="views">267 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">72</div>
+                    <span class="user">desfocoeregresso</span>
+                </div>
+                <span class="views">168 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">73</div>
+                    <span class="user">back.matrix</span>
+                </div>
+                <span class="views">130 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">74</div>
+                    <span class="user">https://www.facebook.com/p/miguel-expat-61566922710534/?sk=reels_tab</span>
+                </div>
+                <span class="views">120 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">75</div>
+                    <span class="user">https://www.facebook.com/ViajanteMoticional/reels/</span>
+                </div>
+                <span class="views">111 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">76</div>
+                    <span class="user">https://www.facebook.com/vibe.nomade.2024/reels/</span>
+                </div>
+                <span class="views">106 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">77</div>
+                    <span class="user">cortesomiguelexpat</span>
+                </div>
+                <span class="views">59 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">78</div>
+                    <span class="user">expats_11</span>
+                </div>
+                <span class="views">27 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">79</div>
+                    <span class="user">momentumgermina</span>
+                </div>
+                <span class="views">19 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">80</div>
+                    <span class="user">https://www.facebook.com/exxpat.vision/reels/</span>
+                </div>
+                <span class="views">9 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">81</div>
+                    <span class="user">gusta.expat</span>
+                </div>
+                <span class="views">9 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">82</div>
+                    <span class="user">https://www.facebook.com/profile.php?id=61566705938659&sk=videos</span>
+                </div>
+                <span class="views">0 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">83</div>
+                    <span class="user">cortes.domiguel</span>
+                </div>
+                <span class="views">0 views</span>
+            </li>
+        
+            <li>
+                <div class="user-info">
+                    <div class="position">84</div>
+                    <span class="user">ext_motivation</span>
+                </div>
+                <span class="views">0 views</span>
+            </li>
+        
+                </ul>
+            </div>
+            <button id="toggleButton" class="toggle-button">Ver Todos os Competidores</button>
+        </div>
+    </body>
+    </html>
+    

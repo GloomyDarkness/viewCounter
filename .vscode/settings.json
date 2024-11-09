@@ -1,0 +1,9 @@
+{
+    "discord.lowerDetailsIdling": "😴 | Sleeping",
+    "discord.lowerDetailsNoWorkspaceFound": "🗂 | Sem diretório",
+    "discord.lowerDetailsEditing": "📁 | {workspace}",
+    "discord.detailsEditing": "✍ | {file_name} ({current_line}/{total_lines})",
+    "discord.detailsIdling": "🛏️ | Idling",
+    "discord.largeImage": "💻 | Editando {lang}",
+    "discord.largeImageIdling": "🛏️ | Idling"
+}

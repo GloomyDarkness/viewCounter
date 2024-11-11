@@ -516,20 +516,21 @@ def get_views(driver):
             print("Não foi possível obter o HTML da página")
     return views
 
-def scrape_user(driver, user, days, concurso):
-    print(f"\nIniciando scraping do perfil: {user}")
-    print(f"Acessando URL: {user}")
-    
-    # Primeiro coleta visualizações na página de reels
-    driver.get(user)
-    time.sleep(3)
-    
+def identify_profile_type(url):
+    """Identifica o tipo de perfil baseado na URL"""
+    if '/videos' in url or '&sk=videos' in url:
+        return 'videos'
+    elif '/reels' in url or 'reels_tab' in url:
+        return 'reels'
+    return 'unknown'
+
+def handle_reels_profile(driver, days):
+    """Manipula perfis que usam o formato /reels ou reels_tab"""
     try:
         print("Aguardando carregamento da página de reels...")
         WebDriverWait(driver, 5).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "div[role='main']"))
         )
-        print("Página de reels carregada com sucesso")
         
         print("Aplicando zoom out...")
         zoom_out(driver)
@@ -543,18 +544,94 @@ def scrape_user(driver, user, days, concurso):
         if click_publications_tab(driver):
             print("Validando vídeos na aba publicações com scroll contínuo...")
             validated_views = validate_views_and_dates(driver, days, initial_views)
-            
-            total_views = validated_views
-            print(f"Total final de visualizações validadas: {total_views}")
-            
-            with file_lock:
-                with open(f"database/{concurso}/results/FacebookResults.txt", "a", encoding="utf-8") as file:
-                    file.write(f"{user} - Visualizações: {total_views}\n")
-            
-            return user, total_views
+            return validated_views
         else:
             print("Não foi possível acessar a aba publicações, usando visualizações não validadas")
-            return user, sum(initial_views)
+            return sum(initial_views)
+    except Exception as e:
+        print(f"Erro ao processar perfil de reels: {str(e)}")
+        return 0
+
+def handle_videos_profile(driver, days):
+    """Manipula perfis que usam o formato /videos"""
+    total_views = 0
+    try:
+        print("Processando perfil de vídeos...")
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "div[role='main']"))
+        )
+        
+        # Scroll inicial para carregar mais conteúdo
+        scroll_down(driver)
+        time.sleep(2)
+        
+        # Localiza os elementos de vídeo na página
+        video_elements = driver.find_elements(By.CSS_SELECTOR, 
+            "div.x78zum5.x1n2onr6.xh8yej3")
+        
+        print(f"Encontrados {len(video_elements)} vídeos")
+        
+        for video in video_elements:
+            try:
+                # Tenta encontrar o contador de visualizações
+                views_element = video.find_element(By.CSS_SELECTOR, 
+                    "span.x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09")
+                views_text = views_element.text.strip()
+                
+                # Tenta encontrar a data do vídeo
+                date_element = video.find_element(By.CSS_SELECTOR, 
+                    "span.x4k7w5x.x1h91t0o.x1h9r5lt.x1jfb8zj")
+                date_text = date_element.text.strip()
+                
+                print(f"Data encontrada: {date_text}, Visualizações: {views_text}")
+                
+                if is_within_days(date_text, days):
+                    views = parse_views_count(views_text)
+                    total_views += views
+                    print(f"Vídeo dentro do período - Data: {date_text}, Visualizações: {views}")
+                else:
+                    print(f"Vídeo fora do período - Data: {date_text}")
+                    break
+                    
+            except Exception as e:
+                print(f"Erro ao processar vídeo: {str(e)}")
+                continue
+                
+    except Exception as e:
+        print(f"Erro ao processar perfil de vídeos: {str(e)}")
+    
+    return total_views
+
+def scrape_user(driver, user, days, concurso):
+    print(f"\nIniciando scraping do perfil: {user}")
+    print(f"Acessando URL: {user}")
+    
+    driver.get(user)
+    time.sleep(3)
+    
+    profile_type = identify_profile_type(user)
+    print(f"Tipo de perfil identificado: {profile_type}")
+    
+    try:
+        total_views = 0
+        
+        if profile_type == 'videos':
+            print("Processando perfil formato /videos")
+            total_views = handle_videos_profile(driver, days)
+        elif profile_type == 'reels':
+            print("Processando perfil formato /reels")
+            total_views = handle_reels_profile(driver, days)
+        else:
+            print("Tentando processar como perfil de reels...")
+            total_views = handle_reels_profile(driver, days)
+            
+        print(f"Total de visualizações coletadas: {total_views}")
+            
+        with file_lock:
+            with open(f"database/{concurso}/results/FacebookResults.txt", "a", encoding="utf-8") as file:
+                file.write(f"{user} - Visualizações: {total_views}\n")
+        
+        return user, total_views
 
     except Exception as e:
         print(f"Erro ao processar usuário: {str(e)}")
@@ -566,8 +643,8 @@ def scrape_users(driver, users, days, result_file, concurso):
         try:
             with open(result_file, "r", encoding="utf-8") as file:
                 for line in file:
-                    if " - Curtidas: " in line:
-                        user, likes = line.split(" - Curtidas: ")
+                    if " - Facebook: " in line:
+                        user, likes = line.split(" - Facebook: ")
                         existing_results[user.strip()] = int(likes.strip())
         except FileNotFoundError:
             pass
@@ -582,8 +659,8 @@ def scrape_users(driver, users, days, result_file, concurso):
         try:
             with open(result_file, "r", encoding="utf-8") as file:
                 for line in file:
-                    if " - Curtidas: " in line:
-                        user, likes = line.split(" - Curtidas: ")
+                    if " - Facebook: " in line:
+                        user, likes = line.split(" - Facebook: ")
                         existing_results[user.strip()] = int(likes.strip())
         except FileNotFoundError:
             pass
@@ -595,7 +672,7 @@ def scrape_users(driver, users, days, result_file, concurso):
 
         with open(result_file, "w", encoding="utf-8") as file:
             for user, likes in results:
-                file.write(f"{user} - Curtidas: {likes}\n")
+                file.write(f"{user} - Facebook: {likes}\n")
 
 def verificar_usuarios_com_zero_likes(driver, users, days, result_file, concurso):
     for user in users:
@@ -616,7 +693,7 @@ def recheck_zero_likes(drivers, days, concurso):
     with open(f"database/{concurso}/results/FacebookResults.txt", "r") as file:
         lines = file.readlines()
 
-    zero_like_users = [line.split(" - ")[0] for line in lines if " - Curtidas: 0" in line]
+    zero_like_users = [line.split(" - ")[0] for line in lines if " - Facebook: 0" in line]
 
     if not zero_like_users:
         print("Nenhum usuário com 0 curtidas encontrado.")
@@ -654,7 +731,7 @@ def recheck_zero_likes(drivers, days, concurso):
             for line in lines:
                 user = line.split(" - ")[0]
                 if user in results:
-                    file.write(f"{user} - Curtidas: {results[user]}\n")
+                    file.write(f"{user} - Facebook: {results[user]}\n")
                 else:
                     file.write(line)
 
@@ -677,7 +754,6 @@ def parse_date_input(date_str):
         pass
     
     date_str = date_str.replace('/', '-')
-    
     date_patterns = [
         ('%d-%m-%Y', True),  
         ('%d-%m', False)     

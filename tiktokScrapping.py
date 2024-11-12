@@ -14,6 +14,7 @@ from datetime import datetime, timedelta
 import socket
 import threading
 import os
+from selenium.webdriver.common.keys import Keys
 
 file_lock = threading.Lock()
 
@@ -53,7 +54,7 @@ def is_within_days(date_str, days):
 def log_message(concurso, message):
     data_atual = datetime.now().strftime("%Y-%m-%d")
     hora_atual = datetime.now().strftime("%H:%M:%S")
-    with open(f"database/{concurso}/logs/tiktok/scraping_log.txt", "a", encoding="utf-8") as file:
+    with open(f"database/{concurso}/logs/tiktok/scraping_log.log", "a", encoding="utf-8") as file:
         file.write(f"[{data_atual} {hora_atual}] {message}\n")
 
 def registrar_captcha(usuario, sucesso, concurso):
@@ -63,7 +64,7 @@ def registrar_captcha(usuario, sucesso, concurso):
     status = "SUCESSO" if sucesso else "FALHA"
     detalhes = "COMPLETOU" if sucesso else "NÃO COMPLETOU"
     
-    with open(f"database/{concurso}/logs/tiktok/captcha_verification.txt", "a", encoding="utf-8") as file:
+    with open(f"database/{concurso}/logs/tiktok/captcha_verification.log", "a", encoding="utf-8") as file:
         file.write(f"Data da Verificação: {data_atual}\n")
         file.write(f"Usuário: {usuario}\n")
         file.write(f"Status do Captcha: {status}\n")
@@ -100,51 +101,74 @@ def check_for_captcha(driver):
         return False
     return False
 
+def retry_find_elements(driver, by, selector, max_attempts=3, wait_time=3):
+    """Tenta encontrar elementos com múltiplas tentativas"""
+    for attempt in range(max_attempts):
+        try:
+            elements = WebDriverWait(driver, wait_time).until(
+                EC.presence_of_all_elements_located((by, selector))
+            )
+            if elements:
+                return elements
+        except (TimeoutException, StaleElementReferenceException) as e:
+            if attempt == max_attempts - 1:
+                raise e
+            time.sleep(2)
+    return []
+
+def retry_find_element(driver, by, selector, max_attempts=3, wait_time=3):
+    """Tenta encontrar um elemento com múltiplas tentativas"""
+    for attempt in range(max_attempts):
+        try:
+            element = WebDriverWait(driver, wait_time).until(
+                EC.presence_of_element_located((by, selector))
+            )
+            return element
+        except (TimeoutException, StaleElementReferenceException) as e:
+            if attempt == max_attempts - 1:
+                raise e
+            time.sleep(2)
+    return None
+
 def check_video_dates(driver, views, days, sadcaptcha, user, concurso):
     log_message(concurso, f"Verificando datas dos vídeos para o usuário {user}...")
     try:
         valid_views = 0
         count = 0
-        video_elements = driver.find_elements(By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] div[data-e2e='user-post-item']")
+        video_elements = retry_find_elements(driver, By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] div[data-e2e='user-post-item']")
         for i, video_element in enumerate(video_elements):
             if i == 0:
-                WebDriverWait(driver, 10).until(EC.element_to_be_clickable(video_element))
-                driver.execute_script("arguments[0].scrollIntoView(true);", video_element)
-                if check_for_captcha(driver):
-                    if not solve_captcha(sadcaptcha, driver, user, concurso):
-                        log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
-                        return 0
-                try:
-                    video_element.click()
-                except StaleElementReferenceException:
-                    video_element = driver.find_elements(By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] div[data-e2e='user-post-item']")[i]
-                    video_element.click()
+                for _ in range(3):
+                    try:
+                        WebDriverWait(driver, 10).until(EC.element_to_be_clickable(video_element))
+                        driver.execute_script("arguments[0].scrollIntoView(true);", video_element)
+                        video_element.click()
+                        break
+                    except (StaleElementReferenceException, ElementClickInterceptedException):
+                        time.sleep(2)
+                        video_elements = retry_find_elements(driver, By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] div[data-e2e='user-post-item']")
+                        if video_elements:
+                            video_element = video_elements[i]
                 time.sleep(2)
             else:
-                next_button = driver.find_element(By.XPATH, "//*[@id='app']/div[2]/div[4]/div/div[1]/button[3]")
-                WebDriverWait(driver, 10).until(EC.element_to_be_clickable(next_button))
-                driver.execute_script("arguments[0].scrollIntoView(true);", next_button)
-                if check_for_captcha(driver):
-                    if not solve_captcha(sadcaptcha, driver, user, concurso):
-                        log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
-                        return 0
                 try:
-                    next_button.click()
-                except ElementClickInterceptedException:
-                    log_message(concurso, f"Botão de próximo vídeo não clicável, tentando resolver CAPTCHA para o usuário {user}...")
-                    if not solve_captcha(sadcaptcha, driver, user, concurso):
-                        log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
-                        return 0
-                    time.sleep(2)  
+                    next_button = driver.find_element(By.XPATH, "//*[@id='app']/div[2]/div[4]/div/div[1]/button[3]")
+                    WebDriverWait(driver, 10).until(EC.element_to_be_clickable(next_button))
+                    driver.execute_script("arguments[0].scrollIntoView(true);", next_button)
                     if check_for_captcha(driver):
-                        log_message(concurso, f"CAPTCHA ainda presente após resolver, tentando novamente para o usuário {user}...")
                         if not solve_captcha(sadcaptcha, driver, user, concurso):
                             log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
                             return 0
-                    next_button.click()
-                except StaleElementReferenceException:
-                    next_button = driver.find_element(By.XPATH, "//*[@id='app']/div[2]/div[4]/div/div[1]/button[3]")
-                    next_button.click()
+                    try:
+                        next_button.click()
+                    except (ElementClickInterceptedException, StaleElementReferenceException):
+                        # Tenta simular a tecla seta para baixo se o botão não funcionar
+                        webdriver.ActionChains(driver).send_keys(Keys.ARROW_DOWN).perform()
+                        log_message(concurso, f"Usando tecla seta para baixo para o usuário {user}...")
+                except NoSuchElementException:
+                    # Se não encontrar o botão, usa a tecla seta para baixo
+                    webdriver.ActionChains(driver).send_keys(Keys.ARROW_DOWN).perform()
+                    log_message(concurso, f"Botão não encontrado, usando tecla seta para baixo para o usuário {user}...")
                 time.sleep(2)
             try:
                 date_text = driver.find_element(By.XPATH, "//span[@data-e2e='browser-nickname']/span[3]").text
@@ -210,23 +234,20 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
 
     def get_views():
         try:
-            WebDriverWait(driver, 3).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "div[data-e2e='user-post-item-list']"))
-            )
-            elements = driver.find_elements(By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] strong[data-e2e='video-views']")
+            elements = retry_find_elements(driver, By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] strong[data-e2e='video-views']")
             if not elements:
                 log_message(concurso, f"Não há elementos suficientes para o usuário {user}")
                 return []
             actions = ActionChains(driver)
             actions.move_to_element(elements[0]).perform()
             time.sleep(0.5)
-            elements = driver.find_elements(By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] strong[data-e2e='video-views']")
+            elements = retry_find_elements(driver, By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] strong[data-e2e='video-views']")
             views = [convert_to_int(el.text) for el in elements]
             if all(view == 0 for view in views):
                 log_message(concurso, f"Todas as visualizações estão em 0 para o usuário {user}. Recarregando a página para verificar novamente.")
                 driver.refresh()
                 time.sleep(3)
-                return scrape_user(driver, sadcaptcha, user, days)
+                return scrape_user(driver, sadcaptcha, user, days, concurso)  # Adicionado parâmetro concurso
             return views
         except Exception as e:
             log_message(concurso, f"Erro ao encontrar elementos para o usuário {user}: {e}")
@@ -260,7 +281,7 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
                 try:
                     driver.find_element(By.CSS_SELECTOR, "button.emuynwa3.css-tlik2g-Button-StyledButton.ehk74z00").click()
                     time.sleep(3)
-                    return scrape_user(driver, sadcaptcha, user, days)
+                    return scrape_user(driver, sadcaptcha, user, days, concurso)  # Adicionado parâmetro concurso
                 except NoSuchElementException:
                     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                         file.write(f"{user} - Algo deu errado\n")
@@ -306,7 +327,7 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
                     try:
                         driver.find_element(By.CSS_SELECTOR, "button.emuynwa3.css-tlik2g-Button-StyledButton.ehk74z00").click()
                         time.sleep(3)
-                        return scrape_user(driver, sadcaptcha, user, days)
+                        return scrape_user(driver, sadcaptcha, user, days, concurso)  # Adicionado parâmetro concurso
                     except NoSuchElementException:
                         with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                             file.write(f"{user} - Algo deu errado\n")

@@ -12,6 +12,9 @@ from datetime import datetime, timedelta
 import threading
 import os
 import json
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 
 file_lock = threading.Lock()
 
@@ -552,54 +555,184 @@ def handle_reels_profile(driver, days):
         print(f"Erro ao processar perfil de reels: {str(e)}")
         return 0
 
+def solicitar_xpath_container(driver):
+    while True:
+        xpath = input("Por favor, forneça o XPath do contêiner principal de vídeos: ")
+        try:
+            container = driver.find_element(By.XPATH, xpath)
+            print("Contêiner principal encontrado com sucesso.")
+            return container
+        except NoSuchElementException:
+            print("Contêiner não encontrado. Por favor, tente novamente.")
+
+def solicitar_xpath_video(driver, video_index):
+    while True:
+        xpath = input(f"Por favor, forneça o XPath do vídeo {video_index}: ")
+        try:
+            video_element = driver.find_element(By.XPATH, xpath)
+            print(f"Vídeo {video_index} encontrado com sucesso.")
+            return video_element
+        except NoSuchElementException:
+            print(f"Vídeo {video_index} não encontrado. Por favor, tente novamente.")
+
+def solicitar_xpath_elemento(driver, descricao):
+    while True:
+        xpath = input(f"Por favor, forneça o XPath do {descricao}: ")
+        try:
+            elemento = driver.find_element(By.XPATH, xpath)
+            print(f"{descricao.capitalize()} encontrado com sucesso.")
+            return xpath, elemento
+        except NoSuchElementException:
+            print(f"{descricao.capitalize()} não encontrado. Por favor, tente novamente.")
+
+def salvar_xpaths_validos(xpaths):
+    with open("xpaths_validos.txt", "w") as file:
+        for descricao, xpath in xpaths.items():
+            file.write(f"{descricao}: {xpath}\n")
+
+def get_date_from_elements(container):
+    date_parts = []
+    index = 1
+    while True:
+        try:
+            # Tenta encontrar o elemento da data pelo índice
+            element = container.find_element(By.XPATH, f".//b[{index}]")
+            date_parts.append(element.text.strip())
+            index += 1
+        except NoSuchElementException:
+            break
+    return ''.join(date_parts)
+
+def get_date_from_elements_js(driver):
+    script = """
+    // Função para converter XPath em elemento
+    function getElementByXPath(xpath) {
+        return document.evaluate(xpath, document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+    }
+
+    // XPath fornecido
+    const xpath = '/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div[1]/div[1]/div[2]/div/div[2]/span/div/span[1]/span/span/a/span';
+
+    // Obtém os elementos pelo XPath
+    const elementsSnapshot = getElementByXPath(xpath);
+
+    // Array para armazenar os textos visíveis e filtrados
+    const visibleTexts = [];
+
+    // Itera sobre os elementos e extrai os textos visíveis
+    for (let i = 0; i < elementsSnapshot.snapshotLength; i++) {
+        const element = elementsSnapshot.snapshotItem(i);
+        if (element.offsetParent !== null) { // Verifica se o elemento está visível
+            // Remove os hífens do texto e adiciona ao array
+            const filteredText = element.textContent.replace(/-/g, '').trim();
+            visibleTexts.push(filteredText);
+        }
+    }
+
+    // Retorna o array de textos visíveis e filtrados
+    return visibleTexts.join(' ');
+    """
+    return driver.execute_script(script)
+
 def handle_videos_profile(driver, days):
     """Manipula perfis que usam o formato /videos"""
     total_views = 0
+    video_index = 1
+    xpaths = {
+        "contêiner principal": "/html/body/div[1]/div/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div/div/div/div[1]",
+        "vídeo base": "/html/body/div[1]/div/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div/div/div/div[1]/div/div/div/div/div[3]/div/div[",
+        "visualização base": "/html/body/div[1]/div/div/div[1]/div/div[5]/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div[2]/div[1]/div/div[2]/div[2]/span/span/div/div[1]"
+    }
+    
     try:
-        print("Processando perfil de vídeos...")
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "div[role='main']"))
-        )
+        print("\n=== DEBUG: Iniciando processamento de perfil de vídeos ===")
+        print(f"URL atual: {driver.current_url}")
         
-        # Scroll inicial para carregar mais conteúdo
-        scroll_down(driver)
-        time.sleep(2)
+        container_xpath = xpaths["contêiner principal"]
+        try:
+            videos_container = driver.find_element(By.XPATH, container_xpath)
+            print("Contêiner principal encontrado com sucesso.")
+        except NoSuchElementException:
+            print("Contêiner não encontrado. Por favor, verifique o XPath.")
+            return 0
         
-        # Localiza os elementos de vídeo na página
-        video_elements = driver.find_elements(By.CSS_SELECTOR, 
-            "div.x78zum5.x1n2onr6.xh8yej3")
+        print("\n=== DEBUG: Estrutura da página ===")
+        print("Conteúdo do container:")
+        print(videos_container.get_attribute('outerHTML'))
         
-        print(f"Encontrados {len(video_elements)} vídeos")
+        print("\nRealizando zoom out inicial...")
+        zoom_out(driver)
+        time.sleep(3)
         
-        for video in video_elements:
+        while True:
             try:
-                # Tenta encontrar o contador de visualizações
-                views_element = video.find_element(By.CSS_SELECTOR, 
-                    "span.x193iq5w.xeuugli.x13faqbe.x1vvkbs.x1xmvt09")
-                views_text = views_element.text.strip()
+                print(f"\n=== DEBUG: Tentando processar vídeo {video_index} ===")
                 
-                # Tenta encontrar a data do vídeo
-                date_element = video.find_element(By.CSS_SELECTOR, 
-                    "span.x4k7w5x.x1h91t0o.x1h9r5lt.x1jfb8zj")
-                date_text = date_element.text.strip()
-                
-                print(f"Data encontrada: {date_text}, Visualizações: {views_text}")
-                
-                if is_within_days(date_text, days):
-                    views = parse_views_count(views_text)
-                    total_views += views
-                    print(f"Vídeo dentro do período - Data: {date_text}, Visualizações: {views}")
-                else:
-                    print(f"Vídeo fora do período - Data: {date_text}")
+                # Constrói o XPath do vídeo atual
+                video_xpath = f"{xpaths['vídeo base']}{video_index}]"
+                try:
+                    video_element = driver.find_element(By.XPATH, video_xpath)
+                    print(f"Vídeo {video_index} encontrado com sucesso.")
+                except NoSuchElementException:
+                    print(f"Vídeo {video_index} não encontrado. Encerrando processamento.")
                     break
-                    
+                
+                print("Tentando clicar no vídeo...")
+                try:
+                    video_element.click()
+                except:
+                    print("Click direto falhou, tentando com JavaScript")
+                    driver.execute_script("arguments[0].click();", video_element)
+                time.sleep(3)
+                
+                print("\n=== DEBUG: Processando dados do vídeo ===")
+                
+                # Usa o XPath das visualizações fornecido
+                views_xpath = xpaths["visualização base"]
+                try:
+                    views_element = driver.find_element(By.XPATH, views_xpath)
+                    views_text = views_element.text.strip()
+                    print(f"Visualizações encontradas: {views_text}")
+                except NoSuchElementException:
+                    print(f"Contador de visualizações não encontrado para o vídeo {video_index}.")
+                    break
+                
+                print("Coletando partes da data...")
+                date_text = get_date_from_elements_js(driver)
+                print(f"Data completa encontrada: {date_text}")
+                
+                if not date_text:
+                    print("Data não encontrada, tentando novamente...")
+                    continue
+                
+                # Temporariamente não verificando se a data está dentro do período
+                views = parse_views_count(views_text)
+                total_views += views
+                print(f"Vídeo válido - Adicionando {views} visualizações ao total")
+                
+                print("Fechando vídeo atual...")
+                webdriver.ActionChains(driver).send_keys(Keys.ESCAPE).perform()
+                time.sleep(2)
+                video_index += 1
+                
+            except TimeoutException:
+                print(f"Timeout ao procurar vídeo {video_index}")
+                break
             except Exception as e:
-                print(f"Erro ao processar vídeo: {str(e)}")
-                continue
+                print(f"ERRO inesperado ao processar vídeo {video_index}: {str(e)}")
+                print("Stack trace completo:", e.__traceback__)
+                break
+                
+        # Salva os XPaths válidos em um arquivo
+        salvar_xpaths_validos(xpaths)
                 
     except Exception as e:
-        print(f"Erro ao processar perfil de vídeos: {str(e)}")
+        print(f"ERRO CRÍTICO no processamento do perfil: {str(e)}")
+        print("Stack trace completo:", e.__traceback__)
     
+    print(f"\n=== DEBUG: Resumo final ===")
+    print(f"Total de vídeos processados: {video_index - 1}")
+    print(f"Total de visualizações coletadas: {total_views}")
     return total_views
 
 def scrape_user(driver, user, days, concurso):
@@ -786,8 +919,6 @@ def format_date_range(target_date):
     range_str = (
         f"🔍 Período de busca:\n"
         f"• De: {format_date(target_date)}\n"
-        f"• Até: {format_date(today)}\n"
-        f"• Total: {days} dia{'s' if days != 1 else ''}"
     )
     
     return range_str

@@ -51,11 +51,38 @@ def is_within_days(date_str, days):
                 video_date = video_date.replace(year=now.year - 1)
     return (now - video_date).days <= days
 
-def log_message(concurso, message):
-    data_atual = datetime.now().strftime("%Y-%m-%d")
-    hora_atual = datetime.now().strftime("%H:%M:%S")
-    with open(f"database/{concurso}/logs/tiktok/scraping_log.log", "a", encoding="utf-8") as file:
-        file.write(f"[{data_atual} {hora_atual}] {message}\n")
+def log_message(concurso, level, message, user="", error=None):
+    """
+    Registra mensagens em diferentes arquivos de log baseado no nível
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"[{timestamp}] [{level}] "
+    if user:
+        log_entry += f"[{user}] "
+    log_entry += message
+    if error:
+        log_entry += f"\nError: {str(error)}"
+
+    log_files = {
+        "ALERT": f"database/{concurso}/logs/tiktok/alerts.log",
+        "ERROR": f"database/{concurso}/logs/tiktok/errors.log",
+        "INFO": f"database/{concurso}/logs/tiktok/info.log",
+        "CAPTCHA": f"database/{concurso}/logs/tiktok/captcha.log",
+        "REMOVED": f"database/{concurso}/logs/tiktok/removedAccounts.log"
+    }
+
+    log_file = log_files.get(level, f"database/{concurso}/logs/tiktok/general.log")
+    
+    with open(log_file, "a", encoding="utf-8") as file:
+        file.write(log_entry + "\n")
+
+def log_failed_user(concurso, user, reason):
+    """
+    Registra usuários que falharam durante o scraping
+    """
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open(f"database/{concurso}/logs/tiktok/failed_users.log", "a", encoding="utf-8") as file:
+        file.write(f"[{timestamp}] {user}: {reason}\n")
 
 def registrar_captcha(usuario, sucesso, concurso):
     data_atual = datetime.now().strftime("%Y-%m-%d")
@@ -74,21 +101,21 @@ def registrar_captcha(usuario, sucesso, concurso):
         file.write("\n")
 
 def solve_captcha(sadcaptcha, driver, usuario, concurso):
-    log_message(concurso, f"Tentando resolver o CAPTCHA para o usuário {usuario}...")
+    log_message(concurso, "INFO", f"Tentando resolver o CAPTCHA", usuario)
     while True:
         try:
             if check_for_captcha(driver):
                 sadcaptcha.solve_captcha_if_present()
-                log_message(concurso, f"CAPTCHA resolvido com sucesso para o usuário {usuario}.")
+                log_message(concurso, "CAPTCHA", f"CAPTCHA resolvido com sucesso", usuario)
                 registrar_captcha(usuario, True, concurso)
                 time.sleep(2) 
                 return True
             else:
-                log_message(concurso, f"CAPTCHA não encontrado para o usuário {usuario}.")
+                log_message(concurso, "INFO", f"CAPTCHA não encontrado", usuario)
                 return False
         except Exception as e:
-            log_message(concurso, f"Tentativa de resolver o CAPTCHA falhou para o usuário {usuario}: {e}.")
-        log_message(concurso, f"Tentando resolver o CAPTCHA novamente em 30 segundos para o usuário {usuario}...")
+            log_message(concurso, "ERROR", f"Tentativa de resolver o CAPTCHA falhou", usuario, e)
+            log_failed_user(concurso, usuario, f"Falha no CAPTCHA: {str(e)}")
         time.sleep(30)
         registrar_captcha(usuario, False, concurso)
 
@@ -131,7 +158,7 @@ def retry_find_element(driver, by, selector, max_attempts=3, wait_time=3):
     return None
 
 def check_video_dates(driver, views, days, sadcaptcha, user, concurso):
-    log_message(concurso, f"Verificando datas dos vídeos para o usuário {user}...")
+    log_message(concurso, "INFO", f"Verificando datas dos vídeos para o usuário {user}...")
     try:
         valid_views = 0
         count = 0
@@ -157,18 +184,18 @@ def check_video_dates(driver, views, days, sadcaptcha, user, concurso):
                     driver.execute_script("arguments[0].scrollIntoView(true);", next_button)
                     if check_for_captcha(driver):
                         if not solve_captcha(sadcaptcha, driver, user, concurso):
-                            log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
+                            log_message(concurso, "ERROR", f"Falha ao resolver CAPTCHA para o usuário {user}.")
                             return 0
                     try:
                         next_button.click()
                     except (ElementClickInterceptedException, StaleElementReferenceException):
                         # Tenta simular a tecla seta para baixo se o botão não funcionar
                         webdriver.ActionChains(driver).send_keys(Keys.ARROW_DOWN).perform()
-                        log_message(concurso, f"Usando tecla seta para baixo para o usuário {user}...")
+                        log_message(concurso, "INFO", f"Usando tecla seta para baixo para o usuário {user}...")
                 except NoSuchElementException:
                     # Se não encontrar o botão, usa a tecla seta para baixo
                     webdriver.ActionChains(driver).send_keys(Keys.ARROW_DOWN).perform()
-                    log_message(concurso, f"Botão não encontrado, usando tecla seta para baixo para o usuário {user}...")
+                    log_message(concurso, "INFO", f"Botão não encontrado, usando tecla seta para baixo para o usuário {user}...")
                 time.sleep(2)
             try:
                 date_text = driver.find_element(By.XPATH, "//span[@data-e2e='browser-nickname']/span[3]").text
@@ -183,7 +210,7 @@ def check_video_dates(driver, views, days, sadcaptcha, user, concurso):
             except NoSuchElementException:
                 if check_for_captcha(driver):
                     if not solve_captcha(sadcaptcha, driver, user, concurso):
-                        log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
+                        log_message(concurso, "ERROR", f"Falha ao resolver CAPTCHA para o usuário {user}.")
                         return 0
             except StaleElementReferenceException:
                 date_text = driver.find_element(By.XPATH, "//span[@data-e2e='browser-nickname']/span[3]").text
@@ -201,7 +228,7 @@ def check_video_dates(driver, views, days, sadcaptcha, user, concurso):
                 driver.execute_script("arguments[0].scrollIntoView(true);", close_button)
                 if check_for_captcha(driver):
                     if not solve_captcha(sadcaptcha, driver, user, concurso):
-                        log_message(concurso, f"Falha ao resolver CAPTCHA para o usuário {user}.")
+                        log_message(concurso, "ERROR", f"Falha ao resolver CAPTCHA para o usuário {user}.")
                         return 0
                 try:
                     close_button.click()
@@ -213,7 +240,7 @@ def check_video_dates(driver, views, days, sadcaptcha, user, concurso):
                 pass
         return valid_views
     except Exception as e:
-        log_message(concurso, f"Erro ao verificar datas dos vídeos para o usuário {user}: {e}")
+        log_message(concurso, "ERROR", f"Erro ao verificar datas dos vídeos para o usuário {user}: {e}")
         return 0
 
 def zoom_out(driver):
@@ -230,13 +257,13 @@ def scroll_down(driver):
         last_height = new_height
 
 def scrape_user(driver, sadcaptcha, user, days, concurso):
-    log_message(concurso, f"Iniciando scraping para o usuário: {user}")
+    log_message(concurso, "INFO", f"Iniciando scraping", user)
 
     def get_views():
         try:
             elements = retry_find_elements(driver, By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] strong[data-e2e='video-views']")
             if not elements:
-                log_message(concurso, f"Não há elementos suficientes para o usuário {user}")
+                log_message(concurso, "INFO", f"Não há elementos suficientes para o usuário {user}")
                 return []
             actions = ActionChains(driver)
             actions.move_to_element(elements[0]).perform()
@@ -244,13 +271,13 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
             elements = retry_find_elements(driver, By.CSS_SELECTOR, "div[data-e2e='user-post-item-list'] strong[data-e2e='video-views']")
             views = [convert_to_int(el.text) for el in elements]
             if all(view == 0 for view in views):
-                log_message(concurso, f"Todas as visualizações estão em 0 para o usuário {user}. Recarregando a página para verificar novamente.")
+                log_message(concurso, "INFO", f"Todas as visualizações estão em 0 para o usuário {user}. Recarregando a página para verificar novamente.")
                 driver.refresh()
                 time.sleep(3)
                 return scrape_user(driver, sadcaptcha, user, days, concurso)  # Adicionado parâmetro concurso
             return views
         except Exception as e:
-            log_message(concurso, f"Erro ao encontrar elementos para o usuário {user}: {e}")
+            log_message(concurso, "ERROR", f"Erro ao encontrar elementos para o usuário {user}: {e}")
             return []
 
     url = f"https://www.tiktok.com/@{user}"
@@ -266,14 +293,20 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
         try:
             private_account_element = driver.find_element(By.CSS_SELECTOR, "p.css-1y4x9xk-PTitle.emuynwa1")
             if "This account is private" in private_account_element.text:
+                log_message(concurso, "REMOVED", f"Conta privada", user)
+                log_failed_user(concurso, user, "Conta privada")
                 with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                     file.write(f"{user} - Conta privada\n")
                 return user, 0
             if "No content" in private_account_element.text:
+                log_message(concurso, "REMOVED", f"Sem conteúdo", user)
+                log_failed_user(concurso, user, "Sem conteúdo")
                 with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                     file.write(f"{user} - Sem conteúdo\n")
                 return user, 0
             if "Couldn't find this account" in private_account_element.text:
+                log_message(concurso, "REMOVED", f"Conta não encontrada", user)
+                log_failed_user(concurso, user, "Conta não encontrada")
                 with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                     file.write(f"{user} - Conta não encontrada\n")
                 return user, 0
@@ -283,10 +316,14 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
                     time.sleep(3)
                     return scrape_user(driver, sadcaptcha, user, days, concurso)  # Adicionado parâmetro concurso
                 except NoSuchElementException:
+                    log_message(concurso, "ERROR", f"Algo deu errado", user)
+                    log_failed_user(concurso, user, "Algo deu errado")
                     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                         file.write(f"{user} - Algo deu errado\n")
                     return user, 0
         except NoSuchElementException:
+            log_message(concurso, "ERROR", f"Elemento não encontrado", user)
+            log_failed_user(concurso, user, "Elemento não encontrado")
             if not solve_captcha(sadcaptcha, driver, user, concurso):
                 with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                     file.write(f"{user} - Falha ao resolver CAPTCHA\n")
@@ -312,14 +349,20 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
             try:
                 private_account_element = driver.find_element(By.CSS_SELECTOR, "p.css-1y4x9xk-PTitle.emuynwa1")
                 if "This account is private" in private_account_element.text:
+                    log_message(concurso, "REMOVED", f"Conta privada", user)
+                    log_failed_user(concurso, user, "Conta privada")
                     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                         file.write(f"{user} - Conta privada\n")
                     return user, 0
                 if "No content" in private_account_element.text:
+                    log_message(concurso, "REMOVED", f"Sem conteúdo", user)
+                    log_failed_user(concurso, user, "Sem conteúdo")
                     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                         file.write(f"{user} - Sem conteúdo\n")
                     return user, 0
                 if "Couldn't find this account" in private_account_element.text:
+                    log_message(concurso, "REMOVED", f"Conta não encontrada", user)
+                    log_failed_user(concurso, user, "Conta não encontrada")
                     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                         file.write(f"{user} - Conta não encontrada\n")
                     return user, 0
@@ -329,10 +372,14 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
                         time.sleep(3)
                         return scrape_user(driver, sadcaptcha, user, days, concurso)  # Adicionado parâmetro concurso
                     except NoSuchElementException:
+                        log_message(concurso, "ERROR", f"Algo deu errado", user)
+                        log_failed_user(concurso, user, "Algo deu errado")
                         with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                             file.write(f"{user} - Algo deu errado\n")
                         return user, 0
             except NoSuchElementException:
+                log_message(concurso, "ERROR", f"Elemento não encontrado", user)
+                log_failed_user(concurso, user, "Elemento não encontrado")
                 if not solve_captcha(sadcaptcha, driver, user, concurso):
                     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
                         file.write(f"{user} - Falha ao resolver CAPTCHA\n")
@@ -342,7 +389,7 @@ def scrape_user(driver, sadcaptcha, user, days, concurso):
     valid_views = check_video_dates(driver, views, days, sadcaptcha, user, concurso)
     with open(f"database/{concurso}/results/TikTokResults.txt", "a", encoding="utf-8") as file:
         file.write(f"{user} - TikTok: {valid_views}\n")
-    log_message(concurso, f"Scraping concluído para o usuário: {user} com {valid_views} visualizações válidas.")
+    log_message(concurso, "INFO", f"Scraping concluído para o usuário: {user} com {valid_views} visualizações válidas.")
     return user, valid_views if valid_views is not None else 0
 
 def perguntar_gerar_resultado():
@@ -404,7 +451,7 @@ def verificar_usuarios_com_zero_views(driver, sadcaptcha, days, result_file, con
         zero_view_users = [line.split(" - TikTok: ")[0] for line in lines if " - TikTok: 0" in line]
     
     if zero_view_users:
-        log_message(concurso, f"Verificando novamente {len(zero_view_users)} usuários com 0 visualizações.")
+        log_message(concurso, "INFO", f"Verificando novamente {len(zero_view_users)} usuários com 0 visualizações.")
         updated_results = {}
         for user in zero_view_users:
             result = scrape_user(driver, sadcaptcha, user, days, concurso)
@@ -595,13 +642,13 @@ def main():
 
     finally:
         # Fecha os drivers de forma segura
-        log_message(concurso, "Fechando as instâncias do Chrome...")
+        log_message(concurso, "INFO", "Fechando as instâncias do Chrome...")
         for driver in drivers:
             fechar_driver_seguro(driver)
         
         end_time = time.time()
         elapsed_time = end_time - start_time
-        log_message(concurso, f"Tempo total de execução: {elapsed_time:.2f} segundos")
+        log_message(concurso, "INFO", f"Tempo total de execução: {elapsed_time:.2f} segundos")
         perguntar_gerar_resultado()
         input("Pressione Enter para fechar o programa...")
 

@@ -27,6 +27,17 @@ Sistema automatizado para análise de visualizações em redes sociais, utilizan
 - Gráficos de desempenho
 - Métricas comparativas
 
+## 🛠️ Requisitos
+- Python 3.x
+- Selenium 4.26.1
+- undetected-chromedriver 3.5.5
+- pandas 2.2.3
+- requests
+- tiktok-captcha-solver 0.5.0
+- Planilhas Excel detalhadas
+- Gráficos de desempenho
+- Métricas comparativas
+
 ### 🔍 Monitoramento
 - Sistema de logs em tempo real
 - Alertas de erros via email

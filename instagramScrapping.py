@@ -65,7 +65,7 @@ def scroll_up(driver):
     driver.execute_script("window.scrollTo(0, 0);")
     human_like_delay(2, 4)
 
-def is_within_days(date_str, days):
+def is_within_days(date_str, days, concurso):
     now = datetime.now()
     target_date = now - timedelta(days=days)
     
@@ -102,7 +102,7 @@ def is_within_days(date_str, days):
         log_step(f"Erro ao verificar a data: {str(e)}", concurso, error=e)
         return False
 
-def get_views(driver):
+def get_views(driver, concurso):
     views = []
     try:
         views_elements = WebDriverWait(driver, 10).until(
@@ -120,8 +120,8 @@ def get_views(driver):
             except ValueError:
                 views.append(0)
     except Exception as e:
-        print(f"Erro ao coletar visualizações: {e}")
-    print(f"Visualizações coletadas: {views}")  # Log temporário
+        log_step(f"Erro ao coletar visualizações: {e}", concurso)
+    log_step(f"Visualizações coletadas: {views}", concurso)  # Log temporário
     return views
 
 def format_date(date_str):
@@ -151,7 +151,7 @@ def ask_for_xpath():
 
 def log_step(message, concurso, user="", error=None):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    log_path = f"database/{concurso}/logs/instagram/scraping_steps.txt"
+    log_path = f"database/{concurso}/logs/instagram/scraping_steps.log"
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
     with open(log_path, "a", encoding="utf-8") as file:
         log_message = f"[{timestamp}] {message}"
@@ -161,7 +161,7 @@ def log_step(message, concurso, user="", error=None):
             log_message += f"\nError: {str(error)}"
         file.write(log_message + "\n")
 
-def get_views_from_element(element):
+def get_views_from_element(element, concurso):
     """Extrai o número de visualizações de um elemento de vídeo"""
     try:
         view_span = element.find_element(By.CSS_SELECTOR, "div._aajy span.html-span.xdj266r")
@@ -175,7 +175,7 @@ def get_views_from_element(element):
         log_step(f"Erro ao extrair visualizações: {str(e)}", concurso, error=e)
         return None
 
-def find_video_by_views(driver, target_views):
+def find_video_by_views(driver, target_views, concurso):
     """Encontra um vídeo específico pelo número de visualizações"""
     try:
         # Procura por todos os containers de vídeo
@@ -187,7 +187,7 @@ def find_video_by_views(driver, target_views):
                 # Encontra o link do reel e as visualizações no container
                 video_link = container.find_element(By.CSS_SELECTOR, "a[href*='/reel/']")
                 views_div = container.find_element(By.CSS_SELECTOR, "div._aajy")
-                current_views = get_views_from_element(views_div)
+                current_views = get_views_from_element(views_div, concurso)
                 
                 if current_views == target_views:
                     log_step(f"Vídeo encontrado com {current_views} visualizações", concurso)
@@ -225,7 +225,7 @@ def click_first_video_and_collect_views(driver, days, views, concurso):
             log_step(f"Procurando vídeo com {target_views} visualizações", concurso)
             
             # Procura o vídeo específico
-            video_link = find_video_by_views(driver, target_views)
+            video_link = find_video_by_views(driver, target_views, concurso)
             
             if not video_link:
                 log_step(f"Vídeo com {target_views} visualizações não encontrado, tentando scroll", concurso)
@@ -234,7 +234,7 @@ def click_first_video_and_collect_views(driver, days, views, concurso):
                 current_scroll = driver.execute_script("return window.pageYOffset")
                 driver.execute_script(f"window.scrollTo({current_scroll}, {current_scroll + viewport_height/2});")
                 human_like_delay(2, 3)
-                video_link = find_video_by_views(driver, target_views)
+                video_link = find_video_by_views(driver, target_views, concurso)
                 
                 if not video_link:
                     log_step(f"Vídeo não encontrado mesmo após scroll, removendo da lista", concurso)
@@ -283,7 +283,7 @@ def click_first_video_and_collect_views(driver, days, views, concurso):
                     formatted_date = format_date(date_text)
                     log_step(f"Data encontrada: {formatted_date}", concurso)
 
-                    if is_within_days(date_text, days):
+                    if is_within_days(date_text, days, concurso):
                         current_views = remaining_views.pop(0)  # Remove e obtém a visualização atual
                         total_views += current_views
                         validated_views.append((current_views, formatted_date))
@@ -316,14 +316,14 @@ def click_first_video_and_collect_views(driver, days, views, concurso):
     log_step(f"Finalizado com {len(validated_views)} vídeos validados de {len(views)} originais", concurso)
     return validated_views
 
-def scroll_and_collect_views_during_scroll(driver):
+def scroll_and_collect_views_during_scroll(driver, concurso):
     views = []
     processed_views = set()  # Conjunto para controlar visualizações já coletadas
     last_height = driver.execute_script("return document.body.scrollHeight")
 
     while True:
         # Coleta as visualizações na posição atual da página
-        new_views = get_views(driver)
+        new_views = get_views(driver, concurso)
         
         # Adiciona apenas visualizações não processadas anteriormente
         for view in new_views:
@@ -346,7 +346,7 @@ def scroll_and_collect_views_during_scroll(driver):
 
 def log_failed_user(user, reason):
     os.makedirs("database/logs", exist_ok=True)
-    with open("database/logs/failed_users.txt", "a", encoding="utf-8") as file:
+    with open("database/logs/failed_users.log", "a", encoding="utf-8") as file:
         file.write(f"{user}: {reason}\n")
 
 def log_message(level, message, user="", error=None):
@@ -417,7 +417,7 @@ def scrape_user(driver, user, days, concurso):
                 file.write(f"{user} - Reels: 0\n")
             return user, 0, []
 
-        all_views = scroll_and_collect_views_during_scroll(driver)
+        all_views = scroll_and_collect_views_during_scroll(driver, concurso)
 
         if not all_views:
             log_failed_user(user, "Nenhuma visualização encontrada")
@@ -451,7 +451,7 @@ def run_scrape(driver, users, days, concurso):
         try:
             scrape_user(driver, user, days, concurso)
         except Exception as e:
-            pass
+            log_step(f"Erro ao processar usuário {user}: {str(e)}", concurso, error=e)
 
 def recheck_zero_views(drivers, days, concurso):
     try:
@@ -658,7 +658,7 @@ def main():
     else:
         with open(f"database/{concurso}/results/ReelsResults.txt", "w", encoding="utf-8") as file:
             file.write("")
-        with open(f"database/{concurso}/logs/instagram/failed_users.txt", "w", encoding="utf-8") as file:
+        with open(f"database/{concurso}/logs/instagram/failed_users.log", "w", encoding="utf-8") as file:
             file.write("")
         
         while True:

@@ -1,0 +1,19 @@
+{
+  "name": "instagram-scraper",
+  "version": "1.0.0",
+  "main": "instagramScrapping.js",
+  "dependencies": {
+    "puppeteer": "^21.5.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "moment": "^2.29.4",
+    "fs-extra": "^11.1.1"
+  },
+  "description": "![Python](https://img.shields.io/badge/Python-3.x-blue)\r ![Selenium](https://img.shields.io/badge/Selenium-Latest-green)\r ![License](https://img.shields.io/badge/License-MIT-yellow)",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

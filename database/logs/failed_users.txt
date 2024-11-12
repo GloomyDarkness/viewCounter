@@ -1,0 +1,5227 @@
+miguelexpatworld: Zero visualizações
+tododiacortesz: Erro geral: name 'concurso' is not defined
+cortesblitz: Zero visualizações
+0_sabio777: Zero visualizações
+vivaooextraordinarioo: Zero visualizações
+miguelex_cortes: Zero visualizações
+viajantemotivacional: Zero visualizações
+vibesnomade: Zero visualizações
+visaoexpat: Zero visualizações
+motivabrae: Zero visualizações
+umavezmiguel: Zero visualizações
+expatinteligente: Zero visualizações
+teoriaamarga: Zero visualizações
+omundonomadeofc: Zero visualizações
+miguelexpatworld: Zero visualizações
+tododiacortesz: Erro geral: name 'concurso' is not defined
+cortesblitz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+0_sabio777: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vivaooextraordinarioo: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelex_cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+viajantemotivacional: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vibesnomade: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+visaoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivabrae: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+umavezmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatinteligente: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+teoriaamarga: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omundonomadeofc: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+samus.prosperus: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat.cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+faladomiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes111: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+clip_expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+novaesedit: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+theexpatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguel01ex: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vc_contra_ti: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+seja.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+crescimentomindset: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vidadeexpet: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omiguelexpatt: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expats_11: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+soul.llivre: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+excortes1: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+freequenciavencedora: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaumexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ambitiousclub.tv: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatclip: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatfrases: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ownsucess: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatvision: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes01: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesomiguelexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivaaimiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+smkcortesss: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat0: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+foconaev0lucao: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+mindset.motivationbr: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expat.mentality: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelitoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortes.domiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+gusta.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+momentumgermina: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+desfocoeregresso: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+back.matrix: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+back.matrix: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+desfocoeregresso: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+momentumgermina: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+gusta.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortes.domiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelitoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expat.mentality: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+mindset.motivationbr: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+foconaev0lucao: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat0: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+smkcortesss: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivaaimiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesomiguelexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes01: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatvision: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ownsucess: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatfrases: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatclip: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ambitiousclub.tv: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaumexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+freequenciavencedora: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+excortes1: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+soul.llivre: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expats_11: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omiguelexpatt: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vidadeexpet: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+crescimentomindset: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+seja.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vc_contra_ti: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguel01ex: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+theexpatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+novaesedit: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+clip_expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes111: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+faladomiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat.cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+samus.prosperus: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omundonomadeofc: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+teoriaamarga: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatinteligente: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+umavezmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivabrae: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+visaoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vibesnomade: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+viajantemotivacional: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelex_cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vivaooextraordinarioo: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+0_sabio777: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesblitz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+tododiacortesz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpatworld: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00E8EBD3+24307]
+	(No symbol) [0x00E18D74]
+	(No symbol) [0x00CFC323]
+	(No symbol) [0x00CDE00B]
+	(No symbol) [0x00D65F6F]
+	(No symbol) [0x00D78EC9]
+	(No symbol) [0x00D5FC26]
+	(No symbol) [0x00D3219C]
+	(No symbol) [0x00D3311D]
+	GetHandleVerifier [0x01138D93+2818227]
+	GetHandleVerifier [0x0119542E+3196750]
+	GetHandleVerifier [0x0118D9D2+3165426]
+	GetHandleVerifier [0x00F2DA70+675216]
+	(No symbol) [0x00E21B3D]
+	(No symbol) [0x00E1EA18]
+	(No symbol) [0x00E1EBB5]
+	(No symbol) [0x00E11640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpatworld: Zero visualizações
+tododiacortesz: Erro geral: name 'concurso' is not defined
+miguelexpatworld: Zero visualizações
+tododiacortesz: Erro geral: name 'concurso' is not defined
+cortesblitz: Zero visualizações
+0_sabio777: Zero visualizações
+vivaooextraordinarioo: Zero visualizações
+miguelex_cortes: Zero visualizações
+miguelexpatworld: Zero visualizações
+tododiacortesz: Erro geral: name 'concurso' is not defined
+cortesblitz: Zero visualizações
+tododiacortesz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesblitz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+0_sabio777: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vivaooextraordinarioo: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelex_cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+viajantemotivacional: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vibesnomade: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+visaoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivabrae: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+umavezmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatinteligente: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+teoriaamarga: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omundonomadeofc: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+samus.prosperus: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat.cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+faladomiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes111: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+clip_expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+novaesedit: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+theexpatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguel01ex: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vc_contra_ti: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+seja.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+crescimentomindset: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vidadeexpet: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omiguelexpatt: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expats_11: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+soul.llivre: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+excortes1: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+freequenciavencedora: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaumexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ambitiousclub.tv: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatclip: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatfrases: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ownsucess: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatvision: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes01: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesomiguelexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivaaimiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+smkcortesss: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat0: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+foconaev0lucao: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+mindset.motivationbr: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expat.mentality: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelitoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortes.domiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+gusta.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+momentumgermina: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+desfocoeregresso: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+back.matrix: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+back.matrix: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+desfocoeregresso: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+momentumgermina: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+gusta.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortes.domiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelitoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expat.mentality: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+mindset.motivationbr: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+foconaev0lucao: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat0: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+smkcortesss: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivaaimiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesomiguelexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes01: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatvision: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ownsucess: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatfrases: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatclip: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+ambitiousclub.tv: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+sejaumexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+freequenciavencedora: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+excortes1: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+soul.llivre: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expats_11: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omiguelexpatt: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vidadeexpet: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+crescimentomindset: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+seja.expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vc_contra_ti: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguel01ex: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+theexpatmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+novaesedit: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+clip_expat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatcortes111: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+faladomiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelexpat.cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+samus.prosperus: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+omundonomadeofc: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+teoriaamarga: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+expatinteligente: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+umavezmiguel: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+motivabrae: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+visaoexpat: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vibesnomade: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+viajantemotivacional: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+miguelex_cortes: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+vivaooextraordinarioo: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+0_sabio777: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+cortesblitz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+
+tododiacortesz: Erro geral: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=130.0.6723.117)
+Stacktrace:
+	GetHandleVerifier [0x00A1EBD3+24307]
+	(No symbol) [0x009A8D74]
+	(No symbol) [0x0088C323]
+	(No symbol) [0x0086E00B]
+	(No symbol) [0x008F5F6F]
+	(No symbol) [0x00908EC9]
+	(No symbol) [0x008EFC26]
+	(No symbol) [0x008C219C]
+	(No symbol) [0x008C311D]
+	GetHandleVerifier [0x00CC8D93+2818227]
+	GetHandleVerifier [0x00D2542E+3196750]
+	GetHandleVerifier [0x00D1D9D2+3165426]
+	GetHandleVerifier [0x00ABDA70+675216]
+	(No symbol) [0x009B1B3D]
+	(No symbol) [0x009AEA18]
+	(No symbol) [0x009AEBB5]
+	(No symbol) [0x009A1640]
+	BaseThreadInitThunk [0x76857BA9+25]
+	RtlInitializeExceptionChain [0x776AC0CB+107]
+	RtlClearBits [0x776AC04F+191]
+

@@ -17,6 +17,8 @@ import itertools
 import sys
 import os
 import re
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 
 def human_like_delay(min_delay=1, max_delay=3):
     time.sleep(random.uniform(min_delay, max_delay))
@@ -344,12 +346,13 @@ def scroll_and_collect_views_during_scroll(driver, concurso):
     # Removemos o reversed aqui, pois queremos manter a ordem original
     return views  # Agora retorna as views na ordem correta (mais recente primeiro)
 
-def log_failed_user(user, reason):
-    os.makedirs("database/logs", exist_ok=True)
-    with open("database/logs/failed_users.log", "a", encoding="utf-8") as file:
+def log_failed_user(concurso, user, reason):
+    log_path = f"database/{concurso}/logs/instagram/failed_users.log"
+    os.makedirs(os.path.dirname(log_path), exist_ok=True)
+    with open(log_path, "a", encoding="utf-8") as file:
         file.write(f"{user}: {reason}\n")
 
-def log_message(level, message, user="", error=None):
+def log_message(concurso, level, message, user="", error=None):
     os.makedirs(f"database/{concurso}/logs/instagram", exist_ok=True)
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_entry = f"[{timestamp}] [{level}] "
@@ -371,22 +374,22 @@ def log_message(level, message, user="", error=None):
     with open(log_file, "a", encoding="utf-8") as file:
         file.write(log_entry + "\n")
 
-def remove_user_from_files(user):
+def remove_user_from_files(concurso, user):
     try:
-        with open("database/users/usersIg.txt", "r", encoding="utf-8") as file:
+        with open(f"database/{concurso}/users/usersIg.txt", "r", encoding="utf-8") as file:
             users = file.readlines()
-        with open("database/users/usersIg.txt", "w", encoding="utf-8") as file:
+        with open(f"database/{concurso}/users/usersIg.txt", "w", encoding="utf-8") as file:
             file.writelines([line for line in users if user not in line])
     except Exception as e:
-        log_message("ERROR", f"Erro ao remover usuário do arquivo de usuários", user, e)
+        log_message(concurso, "ERROR", f"Erro ao remover usuário do arquivo de usuários", user, e)
 
     try:
-        with open("database/results/ReelsResults.txt", "r", encoding="utf-8") as file:
+        with open(f"database/{concurso}/results/ReelsResults.txt", "r", encoding="utf-8") as file:
             results = file.readlines()
-        with open("database/results/ReelsResults.txt", "w", encoding="utf-8") as file:
+        with open(f"database/{concurso}/results/ReelsResults.txt", "w", encoding="utf-8") as file:
             file.writelines([line for line in results if user not in line])
     except Exception as e:
-        log_message("ERROR", f"Erro ao remover usuário do arquivo de resultados", user, e)
+        log_message(concurso, "ERROR", f"Erro ao remover usuário do arquivo de resultados", user, e)
 
 def check_page_exists(driver):
     try:
@@ -403,8 +406,8 @@ def scrape_user(driver, user, days, concurso):
         driver.get(f"https://www.instagram.com/{user}/reels/")
 
         if not check_page_exists(driver):
-            log_message("REMOVED", f"Conta não existe ou foi removida", user)
-            remove_user_from_files(user)
+            log_message(concurso, "REMOVED", f"Conta não existe ou foi removida", user)
+            remove_user_from_files(concurso, user)
             return user, 0, []
 
         try:
@@ -412,7 +415,7 @@ def scrape_user(driver, user, days, concurso):
                 EC.presence_of_element_located((By.CSS_SELECTOR, "div._ac7v"))
             )
         except TimeoutException:
-            log_failed_user(user, "Timeout ao carregar página")
+            log_failed_user(concurso, user, "Timeout ao carregar página")
             with open(f"database/{concurso}/results/ReelsResults.txt", "a", encoding="utf-8") as file:
                 file.write(f"{user} - Reels: 0\n")
             return user, 0, []
@@ -420,7 +423,7 @@ def scrape_user(driver, user, days, concurso):
         all_views = scroll_and_collect_views_during_scroll(driver, concurso)
 
         if not all_views:
-            log_failed_user(user, "Nenhuma visualização encontrada")
+            log_failed_user(concurso, user, "Nenhuma visualização encontrada")
 
         scroll_up(driver)
 
@@ -429,19 +432,19 @@ def scrape_user(driver, user, days, concurso):
         total_validated_views = sum(view[0] for view in validated_views)
 
         if total_validated_views == 0:
-            log_failed_user(user, "Zero visualizações")
+            log_failed_user(concurso, user, "Zero visualizações")
 
         with open(f"database/{concurso}/results/ReelsResults.txt", "a", encoding="utf-8") as file:
             file.write(f"{user} - Reels: {total_validated_views}\n")
 
         return user, total_validated_views, validated_views
     except ConnectionError as e:
-        log_failed_user(user, f"Erro de conexão: {str(e)}")
+        log_failed_user(concurso, user, f"Erro de conexão: {str(e)}")
         with open(f"database/{concurso}/results/ReelsResults.txt", "a", encoding="utf-8") as file:
             file.write(f"{user} - Reels: 0\n")
         return user, 0, []
     except Exception as e:
-        log_failed_user(user, f"Erro geral: {str(e)}")
+        log_failed_user(concurso, user, f"Erro geral: {str(e)}")
         with open(f"database/{concurso}/results/ReelsResults.txt", "a", encoding="utf-8") as file:
             file.write(f"{user} - Reels: 0\n")
         return user, 0, []
@@ -597,7 +600,9 @@ def main():
         options.add_argument("--disable-renderer-backgrounding")
         options.add_argument("--window-size=1920,1080")
         
-        driver = uc.Chrome(service=service, options=options, headless=False)
+        # Configuração do Chrome usando webdriver-manager
+        service = ChromeService(ChromeDriverManager().install())
+        driver = webdriver.Chrome(service=service, options=options)
         drivers.append(driver)
 
     login_with_cookies(drivers[0], f"database/cookies/cookieInstagram.json")
@@ -738,4 +743,5 @@ def main():
     input("\nPressione Enter para fechar o programa...")
 
 if __name__ == "__main__":
-    main()
+    main() 
+

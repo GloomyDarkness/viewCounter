@@ -15,6 +15,8 @@ import socket
 import threading
 import os
 from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 
 file_lock = threading.Lock()
 
@@ -599,8 +601,9 @@ def main():
             options.add_argument("--disable-backgrounding-occluded-windows")
             options.add_argument("--disable-renderer-backgrounding")
 
-            version_main = 130  
-            driver = uc.Chrome(service=service, options=options, version_main=version_main)
+            # Configuração do Chrome usando webdriver-manager
+            service = ChromeService(ChromeDriverManager().install())
+            driver = webdriver.Chrome(service=service, options=options)
             drivers.append(driver)
             sadcaptchas.append(SeleniumSolver(driver, api_key))
 

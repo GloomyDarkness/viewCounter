@@ -15,6 +15,7 @@ import json
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
+import sys
 
 file_lock = threading.Lock()
 
@@ -586,7 +587,7 @@ def solicitar_xpath_elemento(driver, descricao):
             print(f"{descricao.capitalize()} não encontrado. Por favor, tente novamente.")
 
 def salvar_xpaths_validos(xpaths):
-    with open("xpaths_validos.txt", "w") as file:
+    with open("Facebook_XPath_Views_Log.txt", "w", encoding="utf-8") as file:
         for descricao, xpath in xpaths.items():
             file.write(f"{descricao}: {xpath}\n")
 
@@ -604,35 +605,71 @@ def get_date_from_elements(container):
     return ''.join(date_parts)
 
 def get_date_from_elements_js(driver):
-    script = """
-    // Função para converter XPath em elemento
-    function getElementByXPath(xpath) {
-        return document.evaluate(xpath, document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-    }
+    try:
+        print("Preparando para modo mobile...")
+        current_url = driver.current_url
+        time.sleep(1)
+        
+        print("Configurando emulação para dispositivo móvel...")
+        
+        mobile_options = webdriver.ChromeOptions()
+        mobile_options.add_experimental_option('mobileEmulation', {
+            'deviceMetrics': {
+                'width': 430,
+                'height': 932,
+                'pixelRatio': 3.0
+            },
+            'userAgent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Mobile/15E148 Safari/604.1'
+        })
+        
+        print("Iniciando navegador em modo móvel...")
+        mobile_service = Service()
+        mobile_driver = webdriver.Chrome(service=mobile_service, options=mobile_options)
+        
+        try:
+            print("Carregando página em modo mobile...")
+            mobile_driver.get(current_url)
+            time.sleep(3)
+            
+            print("Buscando elemento de data...")
+            try:
+                date_element = WebDriverWait(mobile_driver, 10).until(
+                    EC.presence_of_element_located((By.XPATH, '/html/body/div[2]/div/div[2]/div[2]/div/div[2]/div[2]'))
+                )
+                date_text = date_element.text.strip()
+                print(f"Data encontrada: {date_text}")
+                
+                # Remover caracteres bugados
+                date_text = ''.join(filter(lambda x: x.isalnum() or x.isspace() or x in ['-', '/'], date_text))
+                print(f"Data limpa: {date_text}")
+                
+                return date_text
+                
+            except Exception as e:
+                print(f"Erro ao buscar data: {str(e)}")
+                return None
+                
+        finally:
+            print("Fechando navegador móvel...")
+            mobile_driver.quit()
+            
+    except Exception as e:
+        print(f"Erro ao configurar modo mobile: {str(e)}")
+        return None
 
-    // XPath fornecido
-    const xpath = '/html/body/div[1]/div/div[1]/div/div[5]/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div[1]/div[1]/div[2]/div/div[2]/span/div/span[1]/span/span/a/span';
+def solicitar_xpath_views(driver, video_index):
+    while True:
+        xpath = input(f"Por favor, forneça o XPath do contador de visualizações para o vídeo {video_index}: ")
+        try:
+            views_element = driver.find_element(By.XPATH, xpath)
+            print(f"Contador de visualizações para o vídeo {video_index} encontrado com sucesso.")
+            return xpath, views_element
+        except NoSuchElementException:
+            print(f"Contador de visualizações para o vídeo {video_index} não encontrado. Por favor, tente novamente.")
 
-    // Obtém os elementos pelo XPath
-    const elementsSnapshot = getElementByXPath(xpath);
-
-    // Array para armazenar os textos visíveis e filtrados
-    const visibleTexts = [];
-
-    // Itera sobre os elementos e extrai os textos visíveis
-    for (let i = 0; i < elementsSnapshot.snapshotLength; i++) {
-        const element = elementsSnapshot.snapshotItem(i);
-        if (element.offsetParent !== null) { // Verifica se o elemento está visível
-            // Remove os hífens do texto e adiciona ao array
-            const filteredText = element.textContent.replace(/-/g, '').trim();
-            visibleTexts.push(filteredText);
-        }
-    }
-
-    // Retorna o array de textos visíveis e filtrados
-    return visibleTexts.join(' ');
-    """
-    return driver.execute_script(script)
+def salvar_xpaths_views_log(video_index, xpath):
+    with open("Facebook_XPath_Views_Log.txt", "a", encoding="utf-8") as file:
+        file.write(f"Vídeo {video_index} views XPath: {xpath}\n")
 
 def handle_videos_profile(driver, days):
     """Manipula perfis que usam o formato /videos"""
@@ -641,7 +678,7 @@ def handle_videos_profile(driver, days):
     xpaths = {
         "contêiner principal": "/html/body/div[1]/div/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div/div/div/div[1]",
         "vídeo base": "/html/body/div[1]/div/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[4]/div/div/div/div[1]/div/div/div/div/div[3]/div/div[",
-        "visualização base": "/html/body/div[1]/div/div/div[1]/div/div[5]/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div[2]/div[1]/div/div[2]/div[2]/span/span/div/div[1]"
+        "visualização base": "/html/body/div[1]/div/div/div[1]/div/div[5]/div/div/div[3]/div[2]/div/div/div[2]/div[1]/div/div[1]/div/div/div[2]/div[1]/div/div["
     }
     
     try:
@@ -687,15 +724,21 @@ def handle_videos_profile(driver, days):
                 
                 print("\n=== DEBUG: Processando dados do vídeo ===")
                 
-                # Usa o XPath das visualizações fornecido
-                views_xpath = xpaths["visualização base"]
+                # Tentar múltiplos XPaths para encontrar o contador de visualizações
+                views_text = None
+                if video_index == 1:
+                    views_xpath = f"{xpaths['visualização base']}2]/div[2]/span/span/div/div[1]/span"
+                else:
+                    views_xpath = f"{xpaths['visualização base']}3]/div/span/span/div/div[1]/span"
+                
                 try:
                     views_element = driver.find_element(By.XPATH, views_xpath)
                     views_text = views_element.text.strip()
                     print(f"Visualizações encontradas: {views_text}")
                 except NoSuchElementException:
-                    print(f"Contador de visualizações não encontrado para o vídeo {video_index}.")
-                    break
+                    print(f"Contador de visualizações não encontrado para o vídeo {video_index}. Desconsiderando vídeo.")
+                    video_index += 1
+                    continue
                 
                 print("Coletando partes da data...")
                 date_text = get_date_from_elements_js(driver)
@@ -723,9 +766,6 @@ def handle_videos_profile(driver, days):
                 print("Stack trace completo:", e.__traceback__)
                 break
                 
-        # Salva os XPaths válidos em um arquivo
-        salvar_xpaths_validos(xpaths)
-                
     except Exception as e:
         print(f"ERRO CRÍTICO no processamento do perfil: {str(e)}")
         print("Stack trace completo:", e.__traceback__)
@@ -734,6 +774,20 @@ def handle_videos_profile(driver, days):
     print(f"Total de vídeos processados: {video_index - 1}")
     print(f"Total de visualizações coletadas: {total_views}")
     return total_views
+
+def get_account_name(driver, profile_type):
+    try:
+        if profile_type == 'videos':
+            name_xpath = '//*[@id="mount_0_0_r9"]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[3]/div/div/div[1]/div/div/span/h1'
+        else:
+            name_xpath = '/html/body/div[1]/div/div[1]/div/div[3]/div/div/div[1]/div[1]/div/div/div[1]/div[2]/div/div/div/div[3]/div/div/div[1]/div/div/span/h1'
+        
+        account_name_element = driver.find_element(By.XPATH, name_xpath)
+        account_name = account_name_element.text.strip()
+        return account_name
+    except NoSuchElementException:
+        print("Nome da conta não encontrado.")
+        return "Unknown"
 
 def scrape_user(driver, user, days, concurso):
     print(f"\nIniciando scraping do perfil: {user}")
@@ -757,12 +811,15 @@ def scrape_user(driver, user, days, concurso):
         else:
             print("Tentando processar como perfil de reels...")
             total_views = handle_reels_profile(driver, days)
-            
+        
+        account_name = get_account_name(driver, profile_type)
+        print(f"Nome da conta: {account_name}")
+        
         print(f"Total de visualizações coletadas: {total_views}")
             
         with file_lock:
             with open(f"database/{concurso}/results/FacebookResults.txt", "a", encoding="utf-8") as file:
-                file.write(f"{user} - Visualizações: {total_views}\n")
+                file.write(f"{user} - {account_name} - Facebook: {total_views}\n")
         
         return user, total_views
 
@@ -864,7 +921,7 @@ def recheck_zero_likes(drivers, days, concurso):
             for line in lines:
                 user = line.split(" - ")[0]
                 if user in results:
-                    file.write(f"{user} - Facebook: {results[user]}\n")
+                    file.write(f"{user} - {results[user]}\n")
                 else:
                     file.write(line)
 
@@ -930,7 +987,6 @@ def reset_facebook_results(concurso):
 
 def main():
     start_time = time.time()
-    service = Service()
 
     concurso = input("Digite o nome do concurso: ")
     verificar_ou_criar_pastas(concurso)
@@ -943,9 +999,10 @@ def main():
     try:
         for _ in range(num_instances):
             retry_count = 0
-            while retry_count < max_retries:
+            while (retry_count < max_retries):
                 try:
-                    options = uc.ChromeOptions()
+                    # Configuração do Chrome usando webdriver-manager
+                    options = webdriver.ChromeOptions()
                     prefs = {
                         "profile.default_content_setting_values.notifications": 2,
                         "profile.default_content_setting_values.media_stream": 2,
@@ -955,24 +1012,39 @@ def main():
                         "profile.default_content_setting_values.auto_play": 2
                     }
                     options.add_experimental_option("prefs", prefs)
-                    options.add_argument("--disable-background-timer-throttling")
-                    options.add_argument("--disable-backgrounding-occluded-windows")
-                    options.add_argument("--disable-renderer-backgrounding")
-                    options.add_argument("--window-size=1920,1080")
+                    options.add_argument("--start-maximized")
                     options.add_argument("--disable-gpu")
                     options.add_argument("--no-sandbox")
                     options.add_argument("--disable-dev-shm-usage")
                     
-                    driver = uc.Chrome(service=service, options=options, headless=False)
+                    # Suprimir logs do ChromeDriver
+                    options.add_argument("--log-level=3")
+                    options.add_argument("--silent")
+                    
+                    # Redirecionar saída padrão e de erro para suprimir logs
+                    sys.stdout = open(os.devnull, 'w')
+                    sys.stderr = open(os.devnull, 'w')
+                    
+                    # Instalar e usar o ChromeDriver automaticamente
+                    service = ChromeService(ChromeDriverManager().install())
+                    driver = webdriver.Chrome(service=service, options=options)
+                    
                     drivers.append(driver)
+                    print("Chrome iniciado com sucesso!")
+                    
+                    # Restaurar saída padrão e de erro
+                    sys.stdout = sys.__stdout__
+                    sys.stderr = sys.__stderr__
                     break
+                    
                 except Exception as e:
                     retry_count += 1
                     print(f"Tentativa {retry_count} de {max_retries} falhou: {str(e)}")
                     if retry_count == max_retries:
                         raise Exception(f"Falha ao iniciar Chrome após {max_retries} tentativas")
-                    time.sleep(5)  # Espera 5 segundos antes de tentar novamente
+                    time.sleep(5)
 
+        # Resto do código permanece igual...
         login_with_cookies(drivers[0], f"database/cookies/cookieFacebook.json")
 
         with open(f"database/{concurso}/users/usersFace.txt", "r", encoding="utf-8") as file:
